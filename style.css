@@ -1,0 +1,58 @@
+
+body {
+    background-color: white;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+header {
+    background-color: #d50a0a;
+    background-image: url("img/Random GEN Logo.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 50px;
+    padding-top: 220px;
+}
+section {
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    height: 400px;
+  
+}
+footer {
+    background-color: black;
+    padding: 20px;
+}
+section div {
+    margin: auto;
+    background-color: rgb(160, 95, 133);
+    width: 100px;
+}
+li{
+    display: inline-block;
+    margin-right: 100px;
+    padding: 10px;   
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10-px;
+}
+a:hover {
+    background-color: black ;
+    color: white; 
+    padding: 10px;
+}
+.nav {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    }
