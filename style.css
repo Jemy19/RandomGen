@@ -1,58 +1,33 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
 body {
-    background-color: white;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, sans-serif;
-}
-header {
-    background-color: #d50a0a;
-    background-image: url("img/Random GEN Logo.png");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-    height: 50px;
-    padding-top: 220px;
-}
-section {
-    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #34495e;
     display: flex;
-    padding: 20px;
-    height: 400px;
-  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
 }
-footer {
-    background-color: black;
-    padding: 20px;
-}
-section div {
-    margin: auto;
-    background-color: rgb(160, 95, 133);
-    width: 100px;
-}
-li{
-    display: inline-block;
-    margin-right: 100px;
-    padding: 10px;   
-}
-ul {
+h1 {
+    font-weight: bold;
     margin: 0;
-    padding: 0;
 }
-a {
-    text-decoration: none;
-    color: black;
-    padding: 10-px;
+.container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
 }
-a:hover {
-    background-color: black ;
-    color: white; 
-    padding: 10px;
-}
-.nav {
-    background-color: white;
+.form-container form {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 20px;
-    color: black;
-    }
+}
