@@ -14,3 +14,6 @@ function gnrtrdmnum(){
         generated.innerHTML = rdmnum;
     }
 }
+
+
+
